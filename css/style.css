@@ -74,7 +74,6 @@ padding-top: 3.125em;}
     border-style: solid;
     box-shadow: #DCD7C2;
     margin-left: 9.375em;
-    transform: translateX(2.5rem);
 }
 .index2{
     background-image:url(../asses/imagen/fondo\ verde\ plantas.jpg) ;
@@ -301,7 +300,6 @@ form{
     grid-row: 1/2;
     align-self:last baseline;
     width: 28.125em;
-
 }
 
 .buton2{
@@ -315,6 +313,7 @@ form{
     border-color: #DCD7C2;
     border-style: solid;
     box-shadow: #DCD7C2;
+    transform: translateX(1.5625rem);
 }
 .texto1{
     grid-column: 1/4;
