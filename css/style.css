@@ -74,6 +74,7 @@ padding-top: 3.125em;}
     border-style: solid;
     box-shadow: #DCD7C2;
     margin-left: 9.375em;
+    transform: translateX(2.5rem);
 }
 .index2{
     background-image:url(../asses/imagen/fondo\ verde\ plantas.jpg) ;
