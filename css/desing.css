@@ -47,5 +47,11 @@ ul a {
   border-style: ridge;
   border-color: #4D5D44;
 }
+.imagen1{
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+padding-left: 100px;
+padding-top: 50px;}
 
 /*# sourceMappingURL=desing.css.map */
