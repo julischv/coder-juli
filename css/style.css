@@ -282,18 +282,7 @@ form{
     grid-template-rows: 15.625em  15.625em 15.625em;
     align-content: last baseline;
 }
-.dibujo{
-    position: relative;
 
-}
-.flordibujo{
-    width: 18.75em;
-    height: 18.75em;
-    position: absolute;
-    right: 0;
-    top: 0;
-    opacity:50%;
-}
 
 .ancla{
     grid-column: 2/3;
