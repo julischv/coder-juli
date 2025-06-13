@@ -440,8 +440,7 @@ form {
   border-color: #DCD7C2;
   border-style: solid;
   display: flex;
-  align-self: center;
-  margin-left: 9.375rem;
+  justify-content: center;
   margin-bottom: 3.125rem;
   margin-top: 0;
   margin-right: 6.25rem;
