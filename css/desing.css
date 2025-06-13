@@ -524,4 +524,60 @@ form {
 .nabar a:hover {
   color: rgb(2, 2, 2);
 }
+
+@media (max-width: 768px) {
+  .nabar ul {
+    flex-direction: column;
+    padding-left: 0;
+    padding-right: 0;
+    gap: 1.5625rem;
+  }
+  .nabar a {
+    font-size: 1.25rem;
+  }
+}
+@media (max-width: 480px) {
+  .moving1 {
+    font-size: 2.5rem;
+  }
+  .moving2 {
+    font-size: 1.25rem;
+    padding-left: 1.25em;
+  }
+  .moving3 {
+    font-size: 1.25rem;
+    padding-left: 1.25em;
+    padding-top: 3.125em;
+  }
+  .nosotros2 h2 {
+    font-size: 1.5rem;
+    padding-top: 0;
+  }
+  .nosotros2 p {
+    font-size: 1rem;
+    padding-top: 0;
+  }
+}
+@media (max-width: 360px) {
+  .moving1 {
+    font-size: 2rem;
+  }
+  .moving2 {
+    font-size: 1rem;
+    padding-left: 0.625em;
+  }
+  .moving3 {
+    font-size: 1rem;
+    padding-left: 0.625em;
+    padding-top: 1.5625em;
+  }
+  .nosotros2 h2 {
+    font-size: 1.25rem;
+    padding-top: 0;
+  }
+  .nosotros2 p {
+    font-size: 0.875rem;
+    padding-top: 0;
+  }
+}
 /*# sourceMappingURL=desing.css.map */
