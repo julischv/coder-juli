@@ -567,13 +567,13 @@ height: 20em;
   .index1{
     background-image: url(../asses/imagen/fondo\ verde\ plantas.jpg);
     background-position: left top;
-    background-size: 1.25rem;
+    background-size: 50%;
     background-repeat: no-repeat;
   }
   .index2 {
     background-image: url(../asses/imagen/fondo\ verde\ plantas.jpg);
     background-position: left top;
-    background-size: 1.25rem;
+    background-size: 50%;
     background-repeat: no-repeat;
   }
 }
@@ -654,13 +654,13 @@ height: 20%;
   .index1 {
     background-image: url(../asses/imagen/fondo\ verde\ plantas.jpg);
     background-position: left top;
-    background-size: 0.625rem;
+    background-size: 50%;
     background-repeat: no-repeat;
   }
   .index2 {
     background-image: url(../asses/imagen/fondo\ verde\ plantas.jpg);
     background-position: left top;
-    background-size: 0.625rem;
+    background-size: 50%;
     background-repeat: no-repeat;
 }
 .header1 {
