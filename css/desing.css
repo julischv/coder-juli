@@ -561,9 +561,21 @@ height: 20em;
   }
   .nosotros2 p {
     font-size: 1.25rem;
-    
-
-}
+    }
+  .footer { width: 25%;
+  height: 25%;}
+  .index1{
+    background-image: url(../asses/imagen/fondo\ verde\ plantas.jpg);
+    background-position: left top;
+    background-size: 1.25rem;
+    background-repeat: no-repeat;
+  }
+  .index2 {
+    background-image: url(../asses/imagen/fondo\ verde\ plantas.jpg);
+    background-position: left top;
+    background-size: 1.25rem;
+    background-repeat: no-repeat;
+  }
 }
 @media (max-width: 480px) {
   .moving1 {
