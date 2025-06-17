@@ -535,6 +535,13 @@ form {
   .nabar a {
     font-size: 1.25rem;
   }
+  .header1{
+  background-color: #DCD7C2;
+  display: flex;
+  align-items: center;
+  width: 20%;
+height: 20%;
+}
 }
 @media (max-width: 480px) {
   .moving1 {
@@ -579,5 +586,22 @@ form {
     font-size: 0.875rem;
     padding-top: 0;
   }
+  .header1{
+  background-color: #DCD7C2;
+  display: flex;
+  align-items: center;
+  width: 20%;
+height: 20%;
+}
+}
+@media (max-width: 320px) 
+{.header1{
+  background-color: #DCD7C2;
+  display: flex;
+  align-items: center;
+  width: 20%;
+height: 20%;
+}
+
 }
 /*# sourceMappingURL=desing.css.map */
