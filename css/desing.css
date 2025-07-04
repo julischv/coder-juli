@@ -267,6 +267,7 @@ footer {
     .trabajofoto {
         flex-direction: column; 
         align-items: center; 
+        max-width: 50%;
     }
     .deportista-imagen, .tobillo-imagen {
         max-width: 90%; 
