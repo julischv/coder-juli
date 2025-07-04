@@ -38,7 +38,7 @@ body {
 }
 
 .hero {
-    background: url('../asses/imagen/yogaindex.jpg') no-repeat center center/cover;
+    background: url(../asses/imagen/yogaindex.jpg) no-repeat center center/cover;
     height: 80vh; /* Aumentar para visualización */
     display: flex;
     justify-content: center;
