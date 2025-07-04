@@ -1,3 +1,12 @@
+/* Paleta de colores */
+:root {
+    --color-primary: #5A6273; /* Color principal */
+    --color-secondary: #F2D399; /* Color secundario */
+    --color-tertiary: #D9B68B; /* Color terciario */
+    --color-quaternary: #F2D3AC; /* Color cuaternario */
+    --color-quinary: #A69992; /* Color quinary */
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -7,10 +16,11 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
+    background-color: #F2D3AC; /* Fondo claro */
 }
 
 .header {
-    background: #4CAF50;
+    background: var(--color-primary);
     color: white;
     padding: 10px 20px;
     display: flex;
@@ -47,12 +57,18 @@ body {
 }
 
 .btn {
-    background: #FF5722;
-    color: white;
+    background: var(--color-secondary);
+    color: var(--color-primary);
     padding: 10px 20px;
     border: none;
     cursor: pointer;
     text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: var(--color-tertiary);
 }
 
 .info {
@@ -76,20 +92,26 @@ form label {
 form input, form textarea {
     padding: 10px;
     margin-bottom: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid var(--color-quinary);
     border-radius: 5px;
 }
 
 form button {
-    background: #4CAF50;
+    background: var(--color-primary);
     color: white;
     padding: 10px;
     border: none;
     cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+form button:hover {
+    background: var(--color-tertiary);
 }
 
 footer {
-    background: #333;
+    background: var(--color-quinary);
     color: white;
     text-align: center;
     padding: 10px 0;
