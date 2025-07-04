@@ -57,11 +57,10 @@ body {
     padding: 10px 20px;
     border: none;
     cursor: pointer;
-    text-decoration: none;
-    margin: 10px;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
-    transition: var(--color-tertiary) 0.3s, tranform 0.2s; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: backgroud 0.3s, transform 0.2s;
+    margin: 15px; 
 }
 
 .btn:hover {
@@ -102,7 +101,7 @@ form button {
     border: none;
     cursor: pointer;
     border-radius: 5px;
-    transition:var(--color-quaternary) 0.3s;
+    transition: var(--color-quaternary) 0.3s;
 }
 
 form button:hover {
@@ -115,53 +114,16 @@ footer {
     text-align: center;
     padding: 10px 0;
 }
+
 .logo {
-    width: 50px; 
-    height: auto;  
+    width: 50px;
+    height: auto;
     display: block;
-    margin: 0 auto; 
+    position: fixed; 
+    top: 20px; 
+    left: 20px; 
+    z-index: 1000; 
 }
-.trabajofoto {
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
-    margin: 20px 0; 
-}
-
-.trabajofoto img {
-    max-width: 100%; 
-    height: auto; 
-    border-radius: 8px; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
-}
-
-.trabajotexto {
-    text-align: center; 
-    padding: 20px; 
-    color: var(--color-primary); 
-}
-
-.trabajotexto h2 {
-    margin-top: 15px; 
-    font-size: 1.5em; 
-}
-
-.btn {
-    background: var(--color-secondary); 
-    color: var(--color-primary); 
-    padding: 10px 20px; 
-    border: none; 
-    cursor: pointer; 
-    border-radius: 8px; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
-    transition: bakground 0.3s, transform 0.2s; 
-}
-
-.btn:hover {
-    background: var(--color-tertiary); 
-    transform: translateY(-2px); 
-}
-
 
 .trabajofoto {
     display: flex; 
@@ -177,6 +139,17 @@ footer {
     border-radius: 8px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
     margin: 10px; 
+}
+
+.trabajotexto {
+    text-align: center; 
+    padding: 20px; 
+    color: var(--color-primary); 
+}
+
+.trabajotexto h2 {
+    margin-top: 15px; 
+    font-size: 1.5em; 
 }
 
 .dolorrodilla {
@@ -210,7 +183,7 @@ footer {
 }
 
 .mayores-boton {
-    background: var(--color-secundario);
+    background: var(--color-secondary);
     color: var(--color-principal);
     padding: 10px 20px;
     border: none;
@@ -221,7 +194,7 @@ footer {
 }
 
 .mayores-boton:hover {
-    background: var(--color-terciario);
+    background: var(--color-tertiary);
     transform: translateY(-2px); 
 }
 
@@ -262,7 +235,7 @@ footer {
     .logo {
         width: 35px; 
     }
-        .trabajofoto {
+    .trabajofoto {
         flex-direction: column; 
         align-items: center; 
     }
@@ -279,13 +252,6 @@ footer {
     .btn {
         padding: 8px 16px; 
         font-size: 0.9em; 
-}
-    .trabajofoto {
-        flex-direction: column;
-    }
-    .trabajofoto img {
-        max-width: 90%; 
-        margin-bottom: 15px; 
     }
     .dolorrodilla {
         width: 90%; 
@@ -295,7 +261,6 @@ footer {
         width: 90%; 
         max-width: 100%; 
     }
-
     .logotipo {
         width: 35px; 
     }
