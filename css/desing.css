@@ -15,9 +15,9 @@
 
 body {
     font-family: 'Georgia', serif; 
-    background-color: var(--color-quaternary); /* Color de fondo */
-    line-height: 1.6; /* Aumentar el espaciado entre líneas */
-    color: var(--color-primary); /* Color del texto */
+    background-color: var(--color-quaternary); 
+    line-height: 1.6; 
+    color: var(--color-primary); 
 }
 
 .header {
@@ -128,22 +128,20 @@ footer {
     z-index: 1000; 
 }
 
-
 .nosotros, .nosotros-profesionales {
-    padding: 20px; /* Espaciado interno */
-    margin: 20px 0; /* Espaciado externo */
+    padding: 20px; 
+    margin: 20px 0; 
 }
 
 .nosotros h2, .nosotros-profesionales h2 {
-    font-size: 2em; /* Aumentar tamaño de los encabezados */
-    margin-bottom: 15px; /* Espacio debajo de los encabezados */
+    font-size: 2em; 
+    margin-bottom: 15px; 
 }
 
 .nosotros p, .nosotros-profesionales p {
-    font-size: 1.1em; /* Aumentar tamaño de los párrafos */
-    margin-bottom: 15px; /* Espacio entre párrafos */
+    font-size: 1.1em; 
+    margin-bottom: 15px; 
 }
-
 
 .trabajofoto {
     display: flex; 
@@ -153,7 +151,7 @@ footer {
     flex-wrap: wrap; 
 }
 
-.trabajofoto img {
+.deportista-imagen, .tobillo-imagen {
     max-width: 100%; 
     height: auto; 
     border-radius: 8px; 
@@ -195,7 +193,7 @@ footer {
 
 .adultos-texto {
     margin: 20px 0;
-    color: var(--color-principal);
+    color: var(--color-primary);
 }
 
 .mayores-enlace {
@@ -204,7 +202,7 @@ footer {
 
 .mayores-boton {
     background: var(--color-secondary);
-    color: var(--color-principal);
+    color: var(--color-primary);
     padding: 10px 20px;
     border: none;
     cursor: pointer;
@@ -259,7 +257,7 @@ footer {
         flex-direction: column; 
         align-items: center; 
     }
-    .trabajofoto img {
+    .deportista-imagen, .tobillo-imagen {
         max-width: 90%; 
         margin-bottom: 15px; 
     }
@@ -292,6 +290,7 @@ footer {
         font-size: 1.2em; 
     }
 }
+
 
 
 
