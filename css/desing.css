@@ -1,10 +1,10 @@
 /* Paleta de colores */
 :root {
-    --color-primary: #3B3A30; /* Color principal más oscuro */
-    --color-secondary: #EDD3B9; /* Color secundario ligero */
-    --color-tertiary: #B7A99A; /* Color terciario claro */
-    --color-quaternary: #E2E6E4; /* Color cuaternario suave */
-    --color-quinary: #BFBAB7; /* Color quinary neutro */
+    --color-primary: #4E4B3A; /* Color principal más oscuro (verde oliva) */
+    --color-secondary: #D9E4C7; /* Color secundario ligero (verde claro) */
+    --color-tertiary: #A8BBA1; /* Color terciario claro (beige suave) */
+    --color-quaternary: #E3E8E1; /* Color cuaternario suave (gris claro) */
+    --color-quinary: #C2C6B6; /* Color quinary neutro (gris verdoso) */
 }
 
 * {
@@ -17,9 +17,8 @@ body {
     font-family: 'Georgia', serif; /* Elegir una tipografía más suave */
 }
 
-
 .header {
-    background: rgba(58, 58, 48, 0.7); /* Semi-transparente */
+    background: rgba(78, 75, 58, 0.7); /* Semi-transparente */
     color: white;
     padding: 20px;
 }
@@ -48,7 +47,6 @@ body {
     color: rgba(255, 255, 255, 0.9); /* Blanco ligeramente translúcido */
 }
 
-
 .hero-content {
     animation: fadeIn 2s;
 }
@@ -62,7 +60,7 @@ body {
     text-decoration: none;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave */
-    transition: background 0.3s, transform 0.2s; /* Añadir transformación */
+    transition: background 0.3s, transform 0.2s; /* Corregir 'backgraund' a 'background' */
 }
 
 .btn:hover {
@@ -70,13 +68,11 @@ body {
     transform: translateY(-2px); /* Levantar botón al pasar el mouse */
 }
 
-
 .info {
     text-align: center;
     padding: 40px 20px; /* Aumentar el padding para mayor espacio */
     color: var(--color-primary); /* Cambiar color del texto */
 }
-
 
 .form-section {
     padding: 20px;
@@ -136,6 +132,7 @@ footer {
         flex-direction: column;
     }
 }
+
 
 
 
