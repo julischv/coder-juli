@@ -14,11 +14,11 @@
 }
 
 body {
-    font-family: 'Georgia', serif; /* Elegir una tipografía más suave */
+    font-family: 'Georgia', serif; 
 }
 
 .header {
-    background: rgba(78, 75, 58, 0.7); /* Semi-transparente */
+    background: rgba(78, 75, 58, 0.7); 
     color: white;
     padding: 20px;
 }
@@ -39,12 +39,12 @@ body {
 
 .hero {
     background: url(../asses/imagen/yogaindex.jpg) no-repeat center center/cover;
-    height: 80vh; /* Aumentar para visualización */
+    height: 80vh; 
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: rgba(255, 255, 255, 0.9); /* Blanco ligeramente translúcido */
+    color: rgba(255, 255, 255, 0.9); 
 }
 
 .hero-content {
@@ -60,7 +60,7 @@ body {
     text-decoration: none;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave */
-    transition: background 0.3s, transform 0.2s; /* Corregir 'backgraund' a 'background' */
+    transition: var(--color-tertiary) 0.3s, tranform 0.2s; 
 }
 
 .btn:hover {
@@ -101,7 +101,7 @@ form button {
     border: none;
     cursor: pointer;
     border-radius: 5px;
-    transition: background 0.3s;
+    transition:var(--color-quaternary) 0.3s;
 }
 
 form button:hover {
