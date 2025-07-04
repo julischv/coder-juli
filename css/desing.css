@@ -1,10 +1,10 @@
 /* Paleta de colores */
 :root {
-    --color-primary: #5A6273; /* Color principal */
-    --color-secondary: #F2D399; /* Color secundario */
-    --color-tertiary: #D9B68B; /* Color terciario */
-    --color-quaternary: #F2D3AC; /* Color cuaternario */
-    --color-quinary: #A69992; /* Color quinary */
+    --color-primary: #3B3A30; /* Color principal más oscuro */
+    --color-secondary: #EDD3B9; /* Color secundario ligero */
+    --color-tertiary: #B7A99A; /* Color terciario claro */
+    --color-quaternary: #E2E6E4; /* Color cuaternario suave */
+    --color-quinary: #BFBAB7; /* Color quinary neutro */
 }
 
 * {
@@ -14,18 +14,14 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #F2D3AC; /* Fondo claro */
+    font-family: 'Georgia', serif; /* Elegir una tipografía más suave */
 }
 
+
 .header {
-    background: var(--color-primary);
+    background: rgba(58, 58, 48, 0.7); /* Semi-transparente */
     color: white;
-    padding: 10px 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    padding: 20px;
 }
 
 .navbar ul {
@@ -43,14 +39,15 @@ body {
 }
 
 .hero {
-    background: url('./assets/images/yoga_background.jpg') no-repeat center center/cover;
-    height: 60vh;
+    background: url('../asses/imagen/yogaindex.jpg') no-repeat center center/cover;
+    height: 80vh; /* Aumentar para visualización */
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: white;
+    color: rgba(255, 255, 255, 0.9); /* Blanco ligeramente translúcido */
 }
+
 
 .hero-content {
     animation: fadeIn 2s;
@@ -63,18 +60,23 @@ body {
     border: none;
     cursor: pointer;
     text-decoration: none;
-    border-radius: 5px;
-    transition: background 0.3s;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave */
+    transition: background 0.3s, transform 0.2s; /* Añadir transformación */
 }
 
 .btn:hover {
     background: var(--color-tertiary);
+    transform: translateY(-2px); /* Levantar botón al pasar el mouse */
 }
+
 
 .info {
     text-align: center;
-    padding: 20px;
+    padding: 40px 20px; /* Aumentar el padding para mayor espacio */
+    color: var(--color-primary); /* Cambiar color del texto */
 }
+
 
 .form-section {
     padding: 20px;
