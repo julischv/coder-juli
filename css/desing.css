@@ -189,10 +189,59 @@ footer {
     margin: 20px 0; 
 }
 
+.adultos {
+    padding: 20px;
+    text-align: center;
+}
 
+.adultos-mayores-info img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
 
+.adultos-texto {
+    margin: 20px 0;
+    color: var(--color-principal);
+}
 
+.mayores-enlace {
+    text-decoration: none;
+}
 
+.mayores-boton {
+    background: var(--color-secundario);
+    color: var(--color-principal);
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transition: backgroud 0.3s, transform 0.2s; 
+}
+
+.mayores-boton:hover {
+    background: var(--color-terciario);
+    transform: translateY(-2px); 
+}
+
+.adultos-mayores-profesionales {
+    margin-top: 20px;
+}
+
+.footer {
+    background: var(--color-quinary);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.logotipo {
+    width: 50px; 
+    height: auto;  
+    display: block;
+    margin: 0 auto; 
+}
 
 @keyframes fadeIn {
     from {
@@ -231,6 +280,32 @@ footer {
         padding: 8px 16px; 
         font-size: 0.9em; 
 }
+    .trabajofoto {
+        flex-direction: column;
+    }
+    .trabajofoto img {
+        max-width: 90%; 
+        margin-bottom: 15px; 
+    }
+    .dolorrodilla {
+        width: 90%; 
+        max-width: 300px; 
+    }
+    .tobillo {
+        width: 90%; 
+        max-width: 100%; 
+    }
+
+    .logotipo {
+        width: 35px; 
+    }
+    .adultos-mayores-info img {
+        max-width: 90%; 
+        margin: 0 auto;
+    }
+    .adultos-texto {
+        font-size: 1.2em; 
+    }
 }
 
 
