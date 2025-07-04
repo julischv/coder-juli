@@ -62,7 +62,7 @@ body {
     cursor: pointer;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    transition: background 0.3s, transform 0.2s;
+    transition: backgroud 0.3s, transform 0.2s;
     margin: 25px; 
 }
 
@@ -208,7 +208,7 @@ footer {
     cursor: pointer;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
-    transition: background 0.3s, transform 0.2s; 
+    transition: backgroud 0.3s, transform 0.2s; 
 }
 
 .mayores-boton:hover {
@@ -228,7 +228,7 @@ footer {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
-    margin: 10px 0; /* Espaciado entre imágenes */
+    margin: 10px 0; 
 }
 
 .footer {
