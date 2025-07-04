@@ -1,136 +1,36 @@
-@import url("https://fonts.googleapis.com/css2?family=Bellota:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Delius&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap");
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
+/* Estilos del footer */
 .footer {
-  display: flex;
-  color: #DCD7C2;
-  font-family: "Bellota", system-ui;
-  font-weight: 300;
-  font-size: 2.5vw; /* Cambiado a vw */
-  text-align: center;
-  line-height: 3em; /* Corregido el formato */
-  background-color: #4D5D44;
-  width: 100%;
-  height: auto;
+    background: #f8f8f8;
+    padding: 20px;
+    text-align: center;
 }
-
-.header1 {
-  background-color: #DCD7C2;
-  display: flex;
-  align-items: center;
-  justify-content: center; /* Centrado */
-  width: 100%;
-  height: auto; /* Cambiado a auto */
-}
-
-.index1, .index2 {
-  background-image: url(../asses/imagen/fondo\ verde\ plantas.jpg);
-  background-position: center; /* Centrado */
-  background-size: cover; /* Cubrir */
-  width: 100%;
-  height: auto;
-}
-
-.yoga1 {
-  width: 100%;
-  border: ridge 1px #DCD7C2; /* Simplificado */
-  height: auto;
-}
-
-.imagen1 {
-  display: flex;
-  align-items: flex-start;
-  justify-content: center; /* Centrado */
-  padding: 5%; /* Cambiado a porcentaje */
-}
-
-.moving1 {
-  color: #4D5D44;
-  text-shadow: 0.1875rem 0.1875rem 0.25rem #DCD7C2;
-  font-family: "Winky Sans", sans-serif;
-  font-size: 5vw; /* Cambiado a vw */
-  text-align: center;
-  width: 100%;
-}
-
-.moving2 {
-  color: #4D5D44;
-  font-family: "Bellota", system-ui;
-  font-weight: 100;
-  font-size: 2vw; /* Cambiado a vw */
-  padding: 5%; /* Cambiado a porcentaje */
-  text-align: center;
-}
-
-.buton1 {
-  background-color: #4D5D44;
-  color: #DCD7C2;
-  font-size: 2vw; /* Cambiado a vw */
-  padding: 1rem; /* Cambiado a rem */
-  border: solid 1px #DCD7C2;
-  margin: 5%; /* Cambiado a porcentaje */
-}
-
-.index2 img {
-  width: 100%; /* Ajustado para ser responsive */
-}
-
-.moving3 {
-  color: #4D5D44;
-  font-family: "Bellota", system-ui;
-  font-size: 2vw; /* Cambiado a vw */
-  padding: 5%; /* Cambiado a porcentaje */
-  text-align: center;
-}
-
-.nosotros1 {
-  display: grid;
-  width: 100%;
-  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Ajuste automático */
-  gap: 1.875rem;
-}
-
-.nosotros img {
-  width: 100%; /* Ajustado para ser responsive */
-}
-
-.nosotros2 h2, .nosotros2 p {
-  font-size: 2vw; /* Cambiado a vw */
-  text-align: center;
-}
-
-.footer {
-  width: 100%; /* Asegurando que ocupe el 100% */
-}
-
+/* Media Queries para responsividad */
 @media (max-width: 768px) {
-  .moving1 {
-    font-size: 4vw; /* Ajustado */
-  }
-  .moving2 {
-    font-size: 3vw; /* Ajustado */
-  }
-  .moving3 {
-    font-size: 2.5vw; /* Ajustado */
-  }
+    .nabar ul li {
+        display: block;
+        margin: 10px 0;
+    }
+    .nabar {
+        text-align: center;
+    }
+    .header1 {
+        padding: 20px;
+    }
+    .index1, .index2, .nosotros1, .trabajo1, .deportistas1, .adultosmayores1 {
+        padding: 10px;
+    }
+}
+@media (max-width: 480px) {
+    .nabar ul li {
+        margin: 5px 0;
+    }
+    .buton1, .buton2, .mayoresbuton {
+        width: 100%;
+        padding: 15px;
+    }
 }
 
-@media (max-width: 480px) {
-  .moving1 {
-    font-size: 3vw; /* Ajustado */
-  }
-  .moving2 {
-    font-size: 2.5vw; /* Ajustado */
-  }
-  .moving3 {
-    font-size: 2vw; /* Ajustado */
-  }
-}
+
 
 
 
