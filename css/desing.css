@@ -15,6 +15,9 @@
 
 body {
     font-family: 'Georgia', serif; 
+    background-color: var(--color-quaternary); /* Color de fondo */
+    line-height: 1.6; /* Aumentar el espaciado entre líneas */
+    color: var(--color-primary); /* Color del texto */
 }
 
 .header {
@@ -124,6 +127,23 @@ footer {
     right: 20px; 
     z-index: 1000; 
 }
+
+
+.nosotros, .nosotros-profesionales {
+    padding: 20px; /* Espaciado interno */
+    margin: 20px 0; /* Espaciado externo */
+}
+
+.nosotros h2, .nosotros-profesionales h2 {
+    font-size: 2em; /* Aumentar tamaño de los encabezados */
+    margin-bottom: 15px; /* Espacio debajo de los encabezados */
+}
+
+.nosotros p, .nosotros-profesionales p {
+    font-size: 1.1em; /* Aumentar tamaño de los párrafos */
+    margin-bottom: 15px; /* Espacio entre párrafos */
+}
+
 
 .trabajofoto {
     display: flex; 
