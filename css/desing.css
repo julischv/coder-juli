@@ -48,7 +48,7 @@ body {
 }
 
 .hero-content {
-    animation: fadeIn 2s;
+    animation: forwards 2s;
 }
 
 .btn {
