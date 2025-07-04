@@ -149,6 +149,8 @@ footer {
     align-items: center; 
     margin: 20px 0; 
     flex-wrap: wrap; 
+    width: 75%;
+    height: auto;
 }
 
 .deportista-imagen, .tobillo-imagen {
