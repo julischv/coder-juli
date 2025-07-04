@@ -62,7 +62,7 @@ body {
     cursor: pointer;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    transition: backgroud 0.3s, transform 0.2s;
+    transition: background 0.3s, transform 0.2s;
     margin: 25px; 
 }
 
@@ -208,7 +208,7 @@ footer {
     cursor: pointer;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
-    transition: backgroud 0.3s, transform 0.2s; 
+    transition: background 0.3s, transform 0.2s; 
 }
 
 .mayores-boton:hover {
@@ -218,6 +218,17 @@ footer {
 
 .adultos-mayores-profesionales {
     margin-top: 20px;
+}
+
+.adultos-mayores-galeria {
+    margin-top: 20px;
+}
+
+.adultos-galeria-imagen {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 10px 0; /* Espaciado entre imágenes */
 }
 
 .footer {
@@ -290,6 +301,7 @@ footer {
         font-size: 1.2em; 
     }
 }
+
 
 
 
