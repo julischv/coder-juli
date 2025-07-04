@@ -163,6 +163,47 @@ footer {
 }
 
 
+.trabajofoto {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin: 20px 0; 
+    flex-wrap: wrap; 
+}
+
+.trabajofoto img {
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    margin: 10px; 
+}
+
+.dolorrodilla {
+    width: 300px; 
+}
+
+.deporfondo {
+    width: 100%; 
+    max-width: 600px; }
+
+.tobillo {
+    width: 100%; 
+    max-width: 600px; 
+    margin: 20px 0; 
+}
+
+.hombrecorriendo {
+    width: 100%; 
+    max-width: 400px; 
+    display: block; 
+    margin: 20px auto; 
+}
+
+
+
+
+
 @keyframes fadeIn {
     from {
         opacity: 0;
