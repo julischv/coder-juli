@@ -58,21 +58,21 @@ body {
     border: none;
     cursor: pointer;
     text-decoration: none;
-    margin: top 10px;
+    margin: 10px;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
     transition: var(--color-tertiary) 0.3s, tranform 0.2s; 
 }
 
 .btn:hover {
     background: var(--color-tertiary);
-    transform: translateY(-2px); /* Levantar botón al pasar el mouse */
+    transform: translateY(-2px); 
 }
 
 .info {
     text-align: center;
-    padding: 40px 20px; /* Aumentar el padding para mayor espacio */
-    color: var(--color-primary); /* Cambiar color del texto */
+    padding: 40px 20px; 
+    color: var(--color-primary); 
 }
 
 .form-section {
@@ -121,6 +121,46 @@ footer {
     display: block;
     margin: 0 auto; 
 }
+.trabajofoto {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin: 20px 0; 
+}
+
+.trabajofoto img {
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.trabajotexto {
+    text-align: center; 
+    padding: 20px; 
+    color: var(--color-primary); 
+}
+
+.trabajotexto h2 {
+    margin-top: 15px; 
+    font-size: 1.5em; 
+}
+
+.btn {
+    background: var(--color-secondary); 
+    color: var(--color-primary); 
+    padding: 10px 20px; 
+    border: none; 
+    cursor: pointer; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transition: bakground 0.3s, transform 0.2s; 
+}
+
+.btn:hover {
+    background: var(--color-tertiary); 
+    transform: translateY(-2px); 
+}
 
 
 @keyframes fadeIn {
@@ -142,6 +182,24 @@ footer {
     .logo {
         width: 35px; 
     }
+        .trabajofoto {
+        flex-direction: column; 
+        align-items: center; 
+    }
+    .trabajofoto img {
+        max-width: 90%; 
+        margin-bottom: 15px; 
+    }
+    .trabajotexto {
+        padding: 15px; 
+    }
+    .trabajotexto h2 {
+        font-size: 1.2em; 
+    }
+    .btn {
+        padding: 8px 16px; 
+        font-size: 0.9em; 
+}
 }
 
 
